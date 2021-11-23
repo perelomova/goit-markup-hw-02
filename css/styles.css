@@ -33,7 +33,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.1923076923;
+  line-height: 1.19;
 }
 .header-logo {
   color: #000000;
@@ -41,7 +41,7 @@ body {
 .header .list {
   letter-spacing: 0.02em;
   font-weight: 500;
-  line-height: 1.1428571429;
+  line-height: 1.14;
 }
 .nav-link {
   color: inherit;
@@ -70,13 +70,22 @@ body {
 .hero-btn {
   background-color: var(--accent-color);
   color: var(--white-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
   width: 200px;
   height: 50px;
-  line-height: 1.875;
+  line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
   border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
 }
 
 /* Features section */
@@ -85,19 +94,21 @@ body {
 }
 .features .title {
   text-transform: uppercase;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 1.1429;
+  line-height: 1.14;
 }
 .features .text {
   color: var(--light-gray-color);
-  line-height: 1.7143;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* Our responsibilities section */
 .section-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.167;
+  line-height: 1.17;
   text-align: center;
 }
 
@@ -107,6 +118,7 @@ body {
 }
 .team-member {
   font-weight: 500;
+  font-size: inherit;
   line-height: 1.1875;
 }
 .position {
@@ -126,6 +138,7 @@ body {
 .address {
   font-size: 14px;
   line-height: 1.7143;
+  font-style: normal;
 }
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
@@ -133,19 +146,25 @@ body {
 
 /* Portfolio page styles */
 .filter-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 500;
   text-align: center;
+  letter-spacing: inherit;
   color: inherit;
   height: 26px;
   line-height: 1.625;
   background-color: #f5f4fa;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .project-name {
   font-size: 18px;
